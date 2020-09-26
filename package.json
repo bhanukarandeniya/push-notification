@@ -1,0 +1,35 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "Sample application to track covid 19",
+  "main": "index.js",
+  "scripts": {
+    "start": "export NODE_ENV=development && node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhanukarandeniya/covid-19-app.git"
+  },
+  "author": "Bhanuka Randeniya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhanukarandeniya/covid-19-app/issues"
+  },
+  "homepage": "https://github.com/bhanukarandeniya/covid-19-app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "custom-env": "^2.0.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "helmet": "^4.1.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.1.0",
+    "properties-reader": "^2.1.1",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
